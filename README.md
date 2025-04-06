@@ -4,12 +4,13 @@ This is a simple TCP packet sniffer that uses the **PCAP API** to capture and pr
 
 ---
 ## 📁 Project Structure
+```text
 pcap_tcp_programming/
 ├── pcap_tcp_sniffer.c    # Main source file
 ├── myheader.h            # Header file with Ethernet/IP/TCP structure definitions
 ├── Makefile              # Compilation instructions
 └── README.md    
-
+```
 ## Output Information
 
 The program prints the following details for each captured TCP packet:
